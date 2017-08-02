@@ -134,9 +134,9 @@ values."
    ;; Press <SPC> T n to cycle to the next theme in the list (works great
    ;; with 2 themes variants, one dark and one light)
    dotspacemacs-themes '(
+                         tsdh-light
                          spacemacs-dark
                          monokai
-                         tsdh-light
                          adwaita
                          ;; spacemacs-light
                          )
@@ -145,9 +145,11 @@ values."
    ;; Default font, or prioritized list of fonts. `powerline-scale' allows to
    ;; quickly tweak the mode-line size to make separators look not too crappy.
    dotspacemacs-default-font '(
-                               "新宋体"
+                               ;; "新宋体"
+                               ;; "bitstream vera Sans Roman"
+                               "DejaVu Sans Mono"
                                ;; "Liberation Mono"
-                               :size 18
+                               :size 14
                                :weight normal
                                :width normal
                                :powerline-scale 1.1)
@@ -339,6 +341,7 @@ you should place your code here."
   (global-set-key (kbd "C-M-?") 'insert-slash)
   ;; (global-set-key (kbd "C-[") 'keyboard-quit)
   (global-set-key (kbd "\C-s") 'swiper)
+  (global-set-key (kbd "\C-c q") 'goto-last-change)
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
