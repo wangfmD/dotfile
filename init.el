@@ -134,13 +134,13 @@ values."
    ;; Press <SPC> T n to cycle to the next theme in the list (works great
    ;; with 2 themes variants, one dark and one light)
    dotspacemacs-themes '(
-                         ;; spacemacs-dark
-                         solarized-dark
-                         firebelly
-                         organic-green
-                         tsdh-light
-                         monokai
-                         adwaita
+                         spacemacs-dark
+                         ;; solarized-dark
+                         ;; firebelly
+                         ;; organic-green
+                         ;; tsdh-light
+                         ;; monokai
+                         ;; adwaita
                          ;; spacemacs-light
                          )
    ;; If non nil the cursor color matches the state color in GUI Emacs.
@@ -152,7 +152,7 @@ values."
                                ;; "bitstream vera Sans Roman"
                                "DejaVu Sans Mono"
                                ;; "Liberation Mono"
-                               :size 14
+                               :size 16
                                :weight normal
                                :width normal
                                :powerline-scale 1.1)
